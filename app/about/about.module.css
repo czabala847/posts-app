@@ -1,0 +1,18 @@
+.GridContainer{
+    grid-template-areas: "image"
+                         "myName";
+}
+
+.GridMyName{
+    grid-area: myName;
+}
+
+.GridImage{
+    grid-area: image;
+}
+
+@media screen and (min-width: 768px) {
+    .GridContainer{
+        grid-template-areas: "myName image";
+    }
+}
