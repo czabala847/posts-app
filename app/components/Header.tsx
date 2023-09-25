@@ -16,10 +16,6 @@ const menu: MenuItem[] = [
     name: "Inicio",
     path: "/",
   },
-  {
-    name: "Acerca de mi",
-    path: "/about",
-  },
 ];
 
 export const Header = () => {
